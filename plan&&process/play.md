@@ -11,3 +11,5 @@
 - 造个轮子
 - 熟悉一个npm项目的开发流程
 - vim && neovim配置上手
+
+- 已入手mac,协助开发vim&&neovim
