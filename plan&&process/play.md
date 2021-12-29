@@ -13,3 +13,4 @@
 - vim && neovim配置上手
 
 - 已入手mac,协助开发vim&&neovim
+- 同步更新公司项目--taro+ts+dd
