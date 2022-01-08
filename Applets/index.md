@@ -8,11 +8,3 @@
 - @antmJS/vantUI日期选择框Picker 钉钉端存在选择器颗粒度的问题，原因：官方bug，已提issue:
  [#151](https://github.com/AntmJS/vantui/issues/151)
 - 
-  
-
-| 未解决
-  
-- 父子组件结构出现父组件tab切换点击不顺畅的情况发生，目前看来说代码逻辑没问题，且无法在模拟器及开发环境上复现，只能从真机上复现，代码地址暂未粘贴(已解决)
-- 小程序端less添加scss安装失败
-    <img src="./../errImg/scss-err.png">
-    目前原因正在排查
