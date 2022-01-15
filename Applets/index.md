@@ -7,4 +7,4 @@
 - 在ios和android之间原生列表的渲染可能会出现string || number类型判断的错误而导致渲染失败的，常会出现在switch 的case语句中，解决方案是类型强制转换=>Number(str.toSting())或其他方式也可（ios会默认转换为number，但android不会）
 - @antmJS/vantUI日期选择框Picker 钉钉端存在选择器颗粒度的问题，原因：官方bug，已提issue:
  [#151](https://github.com/AntmJS/vantui/issues/151)
-- 
+- position:sticky 存在兼容性问题，具体表现为滚动下拉时存在点击属性项失效的情况，改为滚动事件实现即可
