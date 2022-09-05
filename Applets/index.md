@@ -8,3 +8,5 @@
 - @antmJS/vantUI日期选择框Picker 钉钉端存在选择器颗粒度的问题，原因：官方bug，已提issue:
  [#151](https://github.com/AntmJS/vantui/issues/151)
 - position:sticky 存在兼容性问题，具体表现为滚动下拉时存在点击属性项失效的情况，改为滚动事件实现即可
+## uni-app 打包android记录
+- 接收低功率蓝牙二进制码的时候需要用到TextDecoder 和 TextEncoder转码，具体表现为使用uni-app第三方插件实现mqtt连接，目前只有一个可以实现tcp://请求头连接，个人推测是需要在安卓原生插件上实现一些请求逻辑，目前收费偏多，个人实现流程为https://ext.dcloud.net.cn/plugin?id=9178#detail 此插件+ TextDecoder实现
